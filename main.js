@@ -290,6 +290,26 @@ const main = () => {
 	}
 }
 
+function forward() {
+  wKey = true
+}
+function right() {
+  dKey = true
+}
+function back() {
+  sKey = true
+}
+function left() {
+  aKey = true
+}
+
+function end() {
+  wKey = false
+  sKey = false
+  aKey = false
+  dKey = false
+}
+
 document.addEventListener("keydown", (e) => {
 	if(e.key === "w") {
 			wKey = true
