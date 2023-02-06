@@ -19,38 +19,3 @@
   display: none;
 }
 
-button {
-  background-color: black;
-  color: white;
-  margin: 0 auto;
-  border: none; 
-  width: 30px;
-  cursor: pointer;
-  font-size: 20px;
-}
-
-.buttons {
-  padding: 5px;
-  margin: 0 auto;
-  width: 200px;
-}
-
-.updown {
-  display: flex;
-  flex-direction: column-reverse;
-}
-
-.updown button {
-  margin-top: 10px;
-}
-.right {
-  position: relative;
-  bottom: 47px;
-  left: 80px;
-}
-.left {
-  position: relative;
-  bottom: 47px;
-  left: 55px;
-}
-
