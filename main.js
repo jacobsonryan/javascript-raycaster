@@ -277,7 +277,7 @@ const main = () => {
 		let oldPlaneX = planeX
 		planeX = planeX * Math.cos(-rotSpeed) - planeY * Math.sin(-rotSpeed)
 		planeY = oldPlaneX * Math.sin(-rotSpeed) + planeY * Math.cos(-rotSpeed)
-    offset += Math.cos(rotSpeed) * 15
+    offset += Math.cos(rotSpeed) * 20
 	}
 	if(aKey) {
 		let oldDirX = player.dirX
@@ -286,7 +286,7 @@ const main = () => {
 		let oldPlaneX = planeX
 		planeX = planeX * Math.cos(rotSpeed) - planeY * Math.sin(rotSpeed)
 		planeY = oldPlaneX * Math.sin(rotSpeed) + planeY * Math.cos(rotSpeed)
-    offset -= Math.cos(rotSpeed) * 15
+    offset -= Math.cos(rotSpeed) * 20
 	}
 }
 
